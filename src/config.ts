@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Ryan Fitzgerald",
   title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit!",
   accentColor: "#1d4ed8",
   social: {
     email: "your-email@example.com",
@@ -88,5 +88,21 @@ export const siteConfig = {
         "Specialized in React and Node.js",
       ],
     },
+  ],
+  certifications: [
+    {
+      title: "Google Data Analytics Professional Certificate",
+      issuer: "Coursera / Google",
+      date: "2023",
+      description: "Análisis de datos avanzado, limpieza, visualización y uso de R.",
+      link: "https://ejemplo.com/credencial"
+    },
+    {
+      title: "Qlik Sense Business Analyst",
+      issuer: "Qlik",
+      date: "2024",
+      description: "Certificación oficial en diseño y visualización de datos en Qlik Sense.",
+      link: "#"
+    }
   ],
 };

@@ -1,0 +1,15 @@
+services:
+  web:
+    build: .
+    ports:
+      - "4321:4321"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+      - WATCHPACK_POLLING=true
+      - CHOKIDAR_USEPOLLING=true
+    # Quitamos el comando extra del compose y dejamos que lo maneje el Dockerfile
+    # O asegúrate de que sea solo uno:
+    command: npm run dev -- --host 0.0.0.0
